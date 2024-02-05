@@ -1,4 +1,5 @@
-# Capstone project for data science cerification course
+# Capstone Projekt für den Kurs *Certified Data Scientist*
+Dieses Projekt war mein Abschlussprojekt des Kurses *Certified Data Scientist* der XDI Experience Design Institut GmbH, den ich von Mai bis November 2023 absolviert habe. 
 
 ## Aufgabenstellung
 Dieses Projekt soll untersuchen, welche Erkenntnisse die Drogeriekette Rossmann aus ihren historischen Verkaufs- und Werbedaten, Daten zu Schulferien und Feiertagen sowie Wettbewerberdaten gewinnen kann. Das Projekt soll die Frage adressieren, wie sich diese Daten nutzen lassen, um den Betrieb und das Management der Filialen zu optimieren, mit dem Ziel, mehr Umsatz zu generieren. Darüber hinaus soll ermittelt werden, wie sich diese Datensätze einsetzen lassen, um die wöchentlichen Verkäufe (Umsatzerlöse) für jede Filiale mit einem ausreichenden Genauigkeitsniveau vorherzusagen.
@@ -41,32 +42,34 @@ Die Endfassung des Projekts wird in Form einer Präsentation und eines formellen
 
 **+++++[Ende der Aufgabenstellung]+++++**
 
-## Files
+## Dateien
 ### project_report.ipynb
-* gives an overview of the data and explains some design choices I made
+* Gibt einen ersten Überblick über die Daten und erklärt einige Design-Entscheidungen.
 
 ### rossmann_company_analysis.ipynb
-* examines the impact of different factors on sales and customers on a company level
+* Untersucht die Auswirkungen verschiedener Faktoren auf die Entwicklung von Umsatz- und Kundenzahlen auf Unternehmensebene.
 
 ### rossman_store_analysis.ipynb
-* gives information about a single store
-* choose the store ID and execute all cells
+* Leistungsbericht einer einzelnen Filiale
+* Filial-ID eingeben und alle Zellen ausführen.
 
 ### rossman_sales_weekly_prediction_vscode.ipynb
-* predicts sales for eight weeks for a single store
-* tests different ML alogrithms and chooses the best for this particular store
-* choose the store ID and execute all cells
+* Umsatzvorhersage (acht Wochen) für eine einzelne Filiale
+* testet verschiedene ML Algorithmen und wählt den besten für diese Filale aus
+* Filial-ID eingeben und alle Zellen ausführen.
 
 ### pms.py
-* helper functions for printing stuff
+* Hilffunktionen um Dinge zu plotten
 
 ### rms.py
-* helper functions to read and preprocess data
+* Hilfsfunktionen um Daten einzulesen und vorzubereiten
+
+Die folgenden Dateien stammen von https://www.kaggle.com/c/rossmann-store-sales/data:
 
 ### store.csv
-* store specific info
+* filialspezifische Informationen
 * assortment, store type, competition, Promo2
   
 ### train.csv
-* sales and customer data for 1115 stores and 942 days
+* Umsatz- und Kundenzahlen für 1115 Filialen an 942 Tagen
 * holidays, school holidays
