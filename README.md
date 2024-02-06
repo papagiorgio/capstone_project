@@ -1,5 +1,5 @@
 # Capstone Projekt für den Kurs *Certified Data Scientist*
-Dieses Projekt war mein Abschlussprojekt des Kurses *Certified Data Scientist* der XDI Experience Design Institut GmbH, den ich von Mai bis November 2023 absolviert habe. 
+Mein Abschlussprojekt für den Kurs *Certified Data Scientist* der XDI Experience Design Institut GmbH, den ich von Mai bis November 2023 absolviert habe. 
 
 ## Aufgabenstellung
 Dieses Projekt soll untersuchen, welche Erkenntnisse die Drogeriekette Rossmann aus ihren historischen Verkaufs- und Werbedaten, Daten zu Schulferien und Feiertagen sowie Wettbewerberdaten gewinnen kann. Das Projekt soll die Frage adressieren, wie sich diese Daten nutzen lassen, um den Betrieb und das Management der Filialen zu optimieren, mit dem Ziel, mehr Umsatz zu generieren. Darüber hinaus soll ermittelt werden, wie sich diese Datensätze einsetzen lassen, um die wöchentlichen Verkäufe (Umsatzerlöse) für jede Filiale mit einem ausreichenden Genauigkeitsniveau vorherzusagen.
