@@ -44,13 +44,13 @@ Die Endfassung des Projekts wird in Form einer Präsentation und eines formellen
 
 ## Dateien
 ### project_report.ipynb
-* Gibt einen ersten Überblick über die Daten und erklärt einige Design-Entscheidungen.
+* Gibt einen (ersten) Überblick über die Daten und erklärt wie ich im Projekt vorgegangen bin.
 
 ### rossmann_company_analysis.ipynb
 * Untersucht die Auswirkungen verschiedener Faktoren auf die Entwicklung von Umsatz- und Kundenzahlen auf Unternehmensebene.
 
 ### rossman_store_analysis.ipynb
-* Leistungsbericht einer einzelnen Filiale
+* Leistungsbericht für eine einzelne Filiale
 * Filial-ID eingeben und alle Zellen ausführen.
 
 ### rossman_sales_weekly_prediction_vscode.ipynb
