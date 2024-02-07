@@ -59,7 +59,7 @@ Die Endfassung des Projekts wird in Form einer Präsentation und eines formellen
 * Filial-ID eingeben und alle Zellen ausführen.
 
 ### pms.py
-* Hilffunktionen um Dinge zu plotten
+* Hilfsfunktionen um Dinge zu plotten
 
 ### rms.py
 * Hilfsfunktionen um Daten einzulesen und vorzubereiten
