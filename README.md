@@ -1,6 +1,39 @@
 # Capstone Projekt für den Kurs *Certified Data Scientist*
 Mein Abschlussprojekt für den Kurs *Certified Data Scientist* der XDI Experience Design Institut GmbH, den ich von Mai bis November 2023 absolviert habe. 
 
+## Dateien
+### project_report.ipynb
+* Gibt einen (ersten) Überblick über die Daten und erklärt wie ich im Projekt vorgegangen bin.
+
+### rossmann_company_analysis.ipynb
+* Untersucht die Auswirkungen verschiedener Faktoren auf die Entwicklung von Umsatz- und Kundenzahlen auf Unternehmensebene.
+
+### rossman_store_analysis.ipynb
+* Leistungsbericht für eine einzelne Filiale
+* Filial-ID eingeben und alle Zellen ausführen.
+
+### rossman_sales_weekly_prediction_vscode.ipynb
+* Umsatzvorhersage (acht Wochen) für eine einzelne Filiale
+* testet verschiedene ML Algorithmen und wählt den besten für diese Filale aus
+* Filial-ID eingeben und alle Zellen ausführen.
+
+### pms.py
+* Hilfsfunktionen um Dinge zu plotten
+
+### rms.py
+* Hilfsfunktionen um Daten einzulesen und vorzubereiten
+
+Die folgenden Dateien stammen von https://www.kaggle.com/c/rossmann-store-sales/data:
+
+### store.csv
+* filialspezifische Informationen
+* assortment, store type, competition, Promo2
+  
+### train.csv
+* Umsatz- und Kundenzahlen für 1115 Filialen an 942 Tagen
+* holidays, school holidays
+
+
 ## Aufgabenstellung
 Dieses Projekt soll untersuchen, welche Erkenntnisse die Drogeriekette Rossmann aus ihren historischen Verkaufs- und Werbedaten, Daten zu Schulferien und Feiertagen sowie Wettbewerberdaten gewinnen kann. Das Projekt soll die Frage adressieren, wie sich diese Daten nutzen lassen, um den Betrieb und das Management der Filialen zu optimieren, mit dem Ziel, mehr Umsatz zu generieren. Darüber hinaus soll ermittelt werden, wie sich diese Datensätze einsetzen lassen, um die wöchentlichen Verkäufe (Umsatzerlöse) für jede Filiale mit einem ausreichenden Genauigkeitsniveau vorherzusagen.
 ### Hintergrund
@@ -41,35 +74,3 @@ Es müssen unterschiedliche Schritte unternommen werden, um ein Vorhersagemodell
 Die Endfassung des Projekts wird in Form einer Präsentation und eines formellen Projektberichts zur Analyse der Gesamtperformance der Filialen präsentiert. Es werden Jupyter-Notebooks für die Gesamtanalyse aller Filialen, die Berichterstellung für einzelne Filialen und das Modellieren (Umsatzprognosen) für einzelne Filialen bereitgestellt, die jeden Schritt und den für die Analyse und Modellierung des Projekts geschriebenen Code detailliert beschreiben. 
 
 **+++++[Ende der Aufgabenstellung]+++++**
-
-## Dateien
-### project_report.ipynb
-* Gibt einen (ersten) Überblick über die Daten und erklärt wie ich im Projekt vorgegangen bin.
-
-### rossmann_company_analysis.ipynb
-* Untersucht die Auswirkungen verschiedener Faktoren auf die Entwicklung von Umsatz- und Kundenzahlen auf Unternehmensebene.
-
-### rossman_store_analysis.ipynb
-* Leistungsbericht für eine einzelne Filiale
-* Filial-ID eingeben und alle Zellen ausführen.
-
-### rossman_sales_weekly_prediction_vscode.ipynb
-* Umsatzvorhersage (acht Wochen) für eine einzelne Filiale
-* testet verschiedene ML Algorithmen und wählt den besten für diese Filale aus
-* Filial-ID eingeben und alle Zellen ausführen.
-
-### pms.py
-* Hilfsfunktionen um Dinge zu plotten
-
-### rms.py
-* Hilfsfunktionen um Daten einzulesen und vorzubereiten
-
-Die folgenden Dateien stammen von https://www.kaggle.com/c/rossmann-store-sales/data:
-
-### store.csv
-* filialspezifische Informationen
-* assortment, store type, competition, Promo2
-  
-### train.csv
-* Umsatz- und Kundenzahlen für 1115 Filialen an 942 Tagen
-* holidays, school holidays
